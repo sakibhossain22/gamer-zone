@@ -29,6 +29,76 @@
     width: 70%;
     margin: auto;
     }
+    .gamebox-container {
+        flex-direction: column;
+    }
+
+    .box-desc {
+        
+    }
+    .box {
+        text-align: center;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .nav-container, .banner-image, .nav-container ul ,.nav-content  {
+        flex-direction: column;
+    }
+    .banner-image, .banner-img {
+        width: 100%;
+        text-align: center;
+    }
+    .buttons {
+        padding-bottom: 20px;
+    }
+    
+    .nav-container {
+        text-align: center;
+    }
+    
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .nav-social {
+        margin-top: 20px;
+    }
+    .nav-logos {
+        margin-bottom: 20px;
+    }
+
+  .all-desc {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    }
+    .gamebox-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box-desc {
+        
+    }
+    .box {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
 
 
 

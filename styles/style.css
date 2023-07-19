@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 40px auto;
+    overflow: hidden;
 }
 
 .nav-logos {
@@ -65,7 +66,14 @@
     align-items: center;
     max-width: 1440px;
     margin: auto;
-    gap: 300px;
+    gap: 200px;
+}
+
+.banner-wrap {
+    background-image: url(../images/Group14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .banner-sub-header {
@@ -92,6 +100,7 @@
     text-transform: lowercase;
     margin-top: 1.2rem;
 }
+
 .buttons {
     margin-top: 3rem;
 }
@@ -117,15 +126,102 @@
     background-color: #4EC5F7;
     border: none;
     padding: 20px 40px;
-    
+
 }
+
 .banner-image {
     width: 50%;
 }
+
 .banner-img {
     max-width: 711px;
 }
+
 .banner-content {
     width: 50%;
     text-align: center;
 }
+
+.games-container {
+    max-width: 1440px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.gamebox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.games-header {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gheader {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.games-desc {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 18px 60px;
+}
+
+.box-desc {
+    color: #534C64;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.box:hover .overlay{
+    opacity: 0.8;
+}
+
+.box {
+    width: 100%;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+} */
+.box:hover .overlay {
+    opacity: 0.8;
+} */
