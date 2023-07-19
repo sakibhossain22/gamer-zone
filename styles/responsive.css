@@ -103,7 +103,12 @@
     .block {
         display: block;
     }
-
+    .f-logo {
+        margin: 0;
+    }
+    .f-link > span {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width:992px) {
