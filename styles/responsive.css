@@ -56,7 +56,7 @@
     }
     #p-img2 {
         width: 60%;
-        padding: 0 60px;
+        padding: 50px 60px;
     }
     .play-image-container {
         text-align: center;
@@ -66,8 +66,11 @@
     }
     #p-img1 {
         left: 50px;
+        max-width: 200px;
     }
-
+    .gamebox-container {
+        flex-direction: column;
+    }
 
 }
 
@@ -145,7 +148,10 @@
         left: 50px;
     }
 
-
+    .gamebox-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
 
