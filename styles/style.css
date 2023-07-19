@@ -352,7 +352,7 @@
 .logo-box {
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 10px;
     text-align: center;
     padding: 10px 0px 10px 10px;
     border-radius: 40px;
@@ -368,6 +368,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 160px auto;
+    gap: 80px;
 }
 
 .logo-title {
