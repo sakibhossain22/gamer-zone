@@ -153,6 +153,17 @@
     width: 50%;
     text-align: center;
 }
+/* games styles */
+
+
+
+
+
+
+
+
+
+
 
 .games-container {
     max-width: 1440px;
@@ -200,10 +211,6 @@
 
 .box-img {
     width: 100%;
-}
-
-.box:hover .overlay{
-    opacity: 0.8;
 }
 
 .box {
@@ -284,7 +291,7 @@
 }
 .logo-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr) repeat(4, 1fr);
     text-align: center;
 
 }
@@ -332,7 +339,7 @@ footer {
 }
 
 .f-logo {
-
+    
 }
 .f-logo .fa-brands {
     font-size: 40px;
@@ -355,30 +362,7 @@ footer {
     font-size: 1rem;
     font-weight: 500;
 }
-/* .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background-color: black;
-    cursor: pointer;
-}
 
-/* .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-} */
-.box:hover .overlay {
-    opacity: 0.8;
-} */
+.hide {
+    display: none;
+}
